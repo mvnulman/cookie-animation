@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.cookie-container {
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cookie-title {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.cookie-subtitle {
+    font-weight: regular;
+}
