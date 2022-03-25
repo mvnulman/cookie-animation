@@ -13,11 +13,21 @@
     transform: translate(-50%, -50%);
     color: white;
     display: flex;
-    width: 20rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 22rem;
     height: 10rem;
     border-radius: 1.2rem;
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    width: 70%;
+}
+
+.cookie {
+    transform: scale(0.6);
 }
 
 .cookie-title {
@@ -28,6 +38,7 @@
 .cookie-subtitle {
     font-weight: bold;
     font-size: 0.7rem;
+    padding: 0.5rem 0rem;
 }
 
 button {
@@ -38,4 +49,10 @@ button {
     font-size: 0.7rem;
     font-weight: bold;
     border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4f2626;
+    color: white;
 }
